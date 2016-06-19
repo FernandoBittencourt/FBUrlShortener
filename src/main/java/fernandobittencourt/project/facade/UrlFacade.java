@@ -3,18 +3,15 @@ package fernandobittencourt.project.facade;
 import java.util.List;
 import java.util.Random;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import fernandobittencourt.project.dao.UrlDao;
 import fernandobittencourt.project.exception.CustomAliasExistsException;
 import fernandobittencourt.project.exception.ShortenedUrlNotFoundException;
 import fernandobittencourt.project.model.Url;
 
-
-public class UrlFacade {
-	
-	
-	
+@Service
+public class UrlFacade {	
 	
 	public Url shortenUrl(String url,String customAlias) throws CustomAliasExistsException{
 		UrlDao dao =new UrlDao();
