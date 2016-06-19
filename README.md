@@ -2,20 +2,21 @@
 Url shortener developed in a java web project.
 
 ##Features
-*Shorten url
-*Retrieve url
-*Top ten urls
+* Shorten url
+* Retrieve url
+* Top ten urls
 
 ##Frameworks/API's/Libs/etc
-*Spring MVC
-*Hibernate
+* Spring MVC
+* Hibernate
 
 >Developed and tested using:
-*WildFly 10.0
-*MySQL
+* WildFly 10.0
+* MySQL
+
 >Development Environment
-*Eclipse (IDE)
-*Ubuntu 14
+* Eclipse (IDE)
+* Ubuntu 14
 
 ##How to use
 >It is still being written...
