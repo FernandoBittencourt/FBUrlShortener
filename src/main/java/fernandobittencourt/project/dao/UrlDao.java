@@ -49,6 +49,7 @@ public class UrlDao {
 	     return true;
 	}
 
+	@SuppressWarnings("unchecked")
 	public List<Url> topTen() {
 		String hql = "FROM Url h "
 				+ "ORDER BY h.access DESC ";
